@@ -21,30 +21,30 @@ func main() {
 			logrus.Fields{
 				"key0": "value0",
 				"key1": "value0",
-				"key2": "value0",
-				"key3": "value0",
-				"key4": "value0",
-				"key5": "value0",
+				"key2": 22,
+				"key3": 333,
+				"key4": time.Second,
+				"key5": time.Millisecond,
 			}).Info("INFO level")
 
 		log.WithFields(
 			logrus.Fields{
 				"key0": "value0",
 				"key1": "value0",
-				"key2": "value0",
-				"key3": "value0",
-				"key4": "value0",
-				"key5": "value0",
+				"key2": 22,
+				"key3": 333,
+				"key4": time.Second,
+				"key5": time.Millisecond,
 			}).Warn("WARN level")
 
 		log.WithFields(
 			logrus.Fields{
 				"key0": "value0",
 				"key1": "value0",
-				"key2": "value0",
-				"key3": "value0",
-				"key4": "value0",
-				"key5": "value0",
+				"key2": 22,
+				"key3": 333,
+				"key4": time.Second,
+				"key5": time.Millisecond,
 			}).Error("ERROR level")
 	}
 
